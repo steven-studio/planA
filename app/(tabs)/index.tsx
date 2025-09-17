@@ -46,7 +46,7 @@ export default function HomeScreen() {
 
 					{/* Center - Title */}
 					<Text className="text-slate-700 text-2xl font-bold">
-						{"Home"}
+						{"首頁"}
 					</Text>
 					{/* Right side - Action buttons */}
 					<View className="flex-row">
@@ -101,7 +101,7 @@ export default function HomeScreen() {
 
 						{/* Loan Amount Section */}
 						<Text className="text-white text-lg font-bold mb-2">
-							{"Your Loan Amount"}
+							{"您的可貸額度為"}
 						</Text>
 						<Text className="text-yellow-400 text-3xl font-bold mb-4">
 							{"NT $ 10,000"}
@@ -118,7 +118,7 @@ export default function HomeScreen() {
 								className="bg-yellow-500 rounded-lg px-4 py-2 justify-center items-center"
 								onPress={() => router.push('/(tabs)/loan/apply')}>
 								<Text className="text-gray-800 text-sm font-bold">
-									{"Want To Borrow More?"}
+									{"想要借更多嗎?"}
 								</Text>
 							</TouchableOpacity>
 						</View>
@@ -133,7 +133,7 @@ export default function HomeScreen() {
 							/>
 							<View className="flex-1 px-2">
 								<Text className="text-gray-800 text-xl font-bold mb-2">
-									{"Amount Repaid"}
+									{"已還款金額"}
 								</Text>
 								<Text className="text-gray-500 text-sm">
 									{"Lorem Ipsum"}
@@ -153,7 +153,7 @@ export default function HomeScreen() {
 					<View className="mx-6">
 						<View className="flex-row items-center mb-3">
 							<Text className="text-gray-800 text-2xl font-bold flex-1">
-								{"Loan History"}
+								{"貸款歷史"}
 							</Text>
 							<Image
 								source={require('../../assets/images/home/history.png')}
@@ -198,7 +198,7 @@ export default function HomeScreen() {
 												fontWeight: "bold",
 												marginBottom: 2,
 											}}>
-											{"Loan Received"}
+											{"貸款已入帳"}
 										</Text>
 										<Text 
 											style={{
@@ -251,7 +251,7 @@ export default function HomeScreen() {
 												fontWeight: "bold",
 												marginBottom: 2,
 											}}>
-											{"Loan Disbured"}
+											{"貸款已撥款"}
 										</Text>
 										<Text 
 											style={{
@@ -304,7 +304,7 @@ export default function HomeScreen() {
 												fontWeight: "bold",
 												marginBottom: 2,
 											}}>
-											{"Loan Approved"}
+											{"貸款已核准"}
 										</Text>
 										<Text 
 											style={{
@@ -357,7 +357,7 @@ export default function HomeScreen() {
 												fontWeight: "bold",
 												marginBottom: 2,
 											}}>
-											{"Loan Received"}
+											{"貸款已入帳"}
 										</Text>
 										<Text 
 											style={{
@@ -409,7 +409,7 @@ export default function HomeScreen() {
 												fontWeight: "bold",
 												marginBottom: 2,
 											}}>
-											{"Loan Declined"}
+											{"貸款已拒絕"}
 										</Text>
 										<Text 
 											style={{

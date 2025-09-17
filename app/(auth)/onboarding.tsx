@@ -16,20 +16,20 @@ export default function OnboardingScreen() {
 	const slides: OnboardingSlide[] = [
 		{
 			id: 1,
-			title: "Easiest way\nto manage your\nloan",
-			description: "Get instant loan approvals with our AI-powered risk assessment system. Fast, secure, and reliable.",
+			title: "最簡單的\n貸款管理\n方式",
+			description: "透過 AI 風險評估系統，即時審核您的貸款。快速、安全、可靠",
 			mainImage: require('../../assets/images/onboarding/card.png')
 		},
 		{
 			id: 2,
-			title: "Smart Risk\nAssessment\nSystem",
-			description: "Advanced AI algorithms analyze your profile for personalized loan recommendations.",
+			title: "智慧風險\n評估系統",
+			description: "透過先進的 AI 演算法分析您的個人資料，提供專屬的貸款建議",
 			mainImage: require('../../assets/images/onboarding/card2.png')
 		},
 		{
 			id: 3,
-			title: "Secure &\nReliable\nPlatform",
-			description: "Bank-level security ensures your financial information is always protected.",
+			title: "安全且\n可靠的\n平台",
+			description: "銀行等級的安全機制，確保您的財務資訊始終受到保護",
 			mainImage: require('../../assets/images/onboarding/phone.png')
 		}
 	];

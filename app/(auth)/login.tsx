@@ -160,17 +160,17 @@ const LoginScreen: React.FC = () => {
               />
               <View className="absolute inset-0 bg-black/20" />
               <View className="absolute bottom-8 left-6 right-6">
-                <Text className="text-3xl font-bold text-white mb-2">Welcome Back</Text>
-                <Text className="text-base text-white/80">Enter your email and password to login</Text>
+                <Text className="text-3xl font-bold text-white mb-2">歡迎回來</Text>
+                <Text className="text-base text-white/80">輸入您的電子郵件與密碼以登入</Text>
               </View>
             </View>
             
             {/* Form Section */}
             <View className="px-6 py-8 bg-white rounded-t-3xl -mt-6 relative z-10 flex-1">
-              <Text className="text-base font-medium text-gray-700 mb-2">Email</Text>
+              <Text className="text-base font-medium text-gray-700 mb-2">電子郵件</Text>
               <TextInput
                 mode="outlined"
-                placeholder="Enter your email"
+                placeholder="輸入您的電子郵件"
                 value={email}
                 onChangeText={setEmail}
                 style={{ marginBottom: 16, backgroundColor: '#FFFFFF', height: 56 }}
@@ -180,10 +180,10 @@ const LoginScreen: React.FC = () => {
                 activeOutlineColor="#6366F1"
               />
 
-              <Text className="text-base font-medium text-gray-700 mb-2">Password</Text>
+              <Text className="text-base font-medium text-gray-700 mb-2">密碼</Text>
               <TextInput
                 mode="outlined"
-                placeholder="Enter your password"
+                placeholder="輸入您的密碼"
                 value={password}
                 onChangeText={setPassword}
                 style={{ marginBottom: 16, backgroundColor: '#FFFFFF', height: 56 }}
@@ -203,7 +203,7 @@ const LoginScreen: React.FC = () => {
                 className="self-end mb-5"
                 onPress={() => router.push('/(auth)/forgot-password')}
               >
-                <Text className="text-blue-600 text-sm font-medium">Forgot Password?</Text>
+                <Text className="text-blue-600 text-sm font-medium">忘記密碼?</Text>
               </TouchableOpacity>
 
               <Button
@@ -220,13 +220,13 @@ const LoginScreen: React.FC = () => {
                 disabled={loading}
                 labelStyle={{ fontSize: 16, fontWeight: '600', color: '#FFFFFF' }}
               >
-                Login
+                登入
               </Button>
 
               {/* Divider */}
               <View className="flex-row items-center my-6">
                 <View className="flex-1 h-px bg-gray-200" />
-                <Text className="mx-4 text-gray-500 text-sm">or continue with</Text>
+                <Text className="mx-4 text-gray-500 text-sm">或選擇其他登入方式</Text>
                 <View className="flex-1 h-px bg-gray-200" />
               </View>
 
@@ -260,9 +260,9 @@ const LoginScreen: React.FC = () => {
 
               {/* Footer */}
               <View className="flex-row justify-center mt-auto mb-6">
-                <Text className="text-gray-600 text-base">Don't have an account? </Text>
+                <Text className="text-gray-600 text-base">還沒有帳號嗎? </Text>
                 <TouchableOpacity onPress={() => router.push('/(auth)/register')}>
-                  <Text className="text-blue-800 font-semibold text-base">Sign Up</Text>
+                  <Text className="text-blue-800 font-semibold text-base">註冊</Text>
                 </TouchableOpacity>
               </View>
             </View>

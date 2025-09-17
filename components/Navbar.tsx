@@ -86,7 +86,7 @@ const Navbar: React.FC<NavbarProps> = ({ onLogout }) => {
         />
         {isActive('home') && (
           <Text className="text-white font-semibold text-sm ml-2">
-            Home
+            首頁
           </Text>
         )}
       </TouchableOpacity>
@@ -107,7 +107,7 @@ const Navbar: React.FC<NavbarProps> = ({ onLogout }) => {
         />
         {isActive('Loan') && (
           <Text className="text-white font-semibold text-sm ml-2">
-            Loan
+            借貸
           </Text>
         )}
       </TouchableOpacity>
@@ -128,7 +128,7 @@ const Navbar: React.FC<NavbarProps> = ({ onLogout }) => {
         />
         {isActive('Support') && (
           <Text className="text-white font-semibold text-sm ml-2">
-            Support
+            支援
           </Text>
         )}
       </TouchableOpacity>
@@ -149,7 +149,7 @@ const Navbar: React.FC<NavbarProps> = ({ onLogout }) => {
         />
         {isActive('Profile') && (
           <Text className="text-white font-semibold text-sm ml-2">
-            Profile
+            個人檔案
           </Text>
         )}
       </TouchableOpacity>

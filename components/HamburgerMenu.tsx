@@ -81,7 +81,7 @@ const HamburgerMenu: React.FC<HamburgerMenuProps> = ({ visible, onClose }) => {
 										className="w-6 h-6 mr-3"
 									/>
 									<Text className="text-slate-700 text-lg font-bold">
-										Home
+										首頁
 									</Text>
 								</TouchableOpacity>
 
@@ -95,7 +95,7 @@ const HamburgerMenu: React.FC<HamburgerMenuProps> = ({ visible, onClose }) => {
 										className="w-6 h-6 mr-3"
 									/>
 									<Text className="text-slate-700 text-lg font-bold">
-										Settings
+										設定
 									</Text>
 								</TouchableOpacity>
 
@@ -109,7 +109,7 @@ const HamburgerMenu: React.FC<HamburgerMenuProps> = ({ visible, onClose }) => {
 										className="w-6 h-6 mr-3"
 									/>
 									<Text className="text-slate-700 text-lg font-bold">
-										Help & Feedback
+										幫助 & 回饋
 									</Text>
 								</TouchableOpacity>
 
@@ -123,7 +123,7 @@ const HamburgerMenu: React.FC<HamburgerMenuProps> = ({ visible, onClose }) => {
 										className="w-6 h-6 mr-3"
 									/>
 									<Text className="text-slate-700 text-lg font-bold">
-										How To Use
+										如何使用
 									</Text>
 								</TouchableOpacity>
 							</View>
@@ -137,7 +137,7 @@ const HamburgerMenu: React.FC<HamburgerMenuProps> = ({ visible, onClose }) => {
 									className="w-6 h-6 mr-3"
 								/>
 								<Text className="text-red-500 text-lg font-bold">
-									Logout
+									登出
 								</Text>
 							</TouchableOpacity>
 						</ScrollView>

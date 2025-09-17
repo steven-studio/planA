@@ -47,7 +47,7 @@ export default function LoanScreen() {
 
 					{/* Center - Title */}
 					<Text className="text-slate-700 text-2xl font-bold">
-						{"Loan"}
+						{"借貸"}
 					</Text>
 
 					{/* Right side - Action buttons */}
@@ -91,7 +91,7 @@ export default function LoanScreen() {
 
 						{/* Header */}
 						<Text className="text-white text-lg font-bold mb-4">
-							{"Current Loan Amount"}
+							{"目前貸款金額"}
 						</Text>
 
 						{/* Content Row */}
@@ -128,7 +128,7 @@ export default function LoanScreen() {
 								className="bg-yellow-500 rounded-lg px-4 py-2 justify-center items-center"
 								onPress={() => router.push('/(tabs)/loan/repay')}>
 								<Text className="text-gray-800 text-sm font-bold">
-									{"Repay Loan"}
+									{"還款"}
 								</Text>
 							</TouchableOpacity>
 						</View>
@@ -146,7 +146,7 @@ export default function LoanScreen() {
 								fontWeight: "bold",
 								marginBottom: 16,
 							}}>
-							{"Loan Repayment"}
+							{"還款資訊"}
 						</Text>
 						<View >
 							<View 
@@ -164,7 +164,7 @@ export default function LoanScreen() {
 										marginRight: 4,
 										flex: 1,
 									}}>
-									{"Next Payment"}
+									{"下一期應繳金額"}
 								</Text>
 								<Text 
 									style={{
@@ -199,7 +199,7 @@ export default function LoanScreen() {
 										marginRight: 4,
 										flex: 1,
 									}}>
-									{"Due Date"}
+									{"繳款截止日"}
 								</Text>
 								<Text 
 									style={{
@@ -233,7 +233,7 @@ export default function LoanScreen() {
 										marginRight: 4,
 										flex: 1,
 									}}>
-									{"Recurring Payment"}
+									{"自動扣款"}
 								</Text>
 								<Text 
 									style={{
@@ -258,7 +258,7 @@ export default function LoanScreen() {
 								fontWeight: "bold",
 								marginBottom: 16,
 							}}>
-							{"Loan Information"}
+							{"貸款資訊"}
 						</Text>
 						<View >
 							<View 
@@ -276,7 +276,7 @@ export default function LoanScreen() {
 										marginRight: 4,
 										flex: 1,
 									}}>
-									{"Interest Rate"}
+									{"年利率"}
 								</Text>
 								<Text 
 									style={{
@@ -311,7 +311,7 @@ export default function LoanScreen() {
 										marginRight: 4,
 										flex: 1,
 									}}>
-									{"Loan Term"}
+									{"貸款期限"}
 								</Text>
 								<Text 
 									style={{
@@ -346,7 +346,7 @@ export default function LoanScreen() {
 										marginRight: 4,
 										flex: 1,
 									}}>
-									{"Monthly Payment"}
+									{"每月應繳金額"}
 								</Text>
 								<Text 
 									style={{
@@ -380,7 +380,7 @@ export default function LoanScreen() {
 										marginRight: 4,
 										flex: 1,
 									}}>
-									{"Disbursed Date"}
+									{"撥款日期"}
 								</Text>
 								<Text 
 									style={{
